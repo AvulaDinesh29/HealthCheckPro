@@ -1,0 +1,77 @@
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f9fb; 
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title styling */
+  .app-title {
+    font-size: 36px;
+    color: #4e9eab; 
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #a5e9f0, 0 0 20px #a5e9f0, 0 0 30px #a5e9f0;
+    
+  }
+  
+  /* verify-otp box styling */
+  .otp-box {
+    max-width: 320px;
+    min-width: 200px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #b2e2e8; /* Background color similar to screenshot */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .otp-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  /* Input fields styling */
+  .otp-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* button styling */
+  .otp-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a626a; /* Darker button color */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .otp-box button:hover {
+    background-color: #3d5159;
+  }
+  
+  /* verify-otp link styling */
+  .otp-btn {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #4a626a;
+  }
+  
+  .otp-btn a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }  
+
+  

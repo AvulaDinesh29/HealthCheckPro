@@ -1,0 +1,171 @@
+/* Center the content */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background-color: #f0f9fb;  */
+  font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+.app-title {
+  font-size: 36px;
+  color: #215e6e;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #a5e9f0, 0 0 20px #a5e9f0, 0 0 30px #a5e9f0;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+body, .login-page, .signup-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #b2e2e8 0%, #4e9eab 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Glassmorphism effect for boxes */
+.login-box, .signup-box {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.24);
+  padding: 2rem 1.5rem;
+  max-width: 350px;
+  width: 100%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.login-title, .signup-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #215e6e;
+  font-weight: 700;
+}
+
+/* Input fields styling */
+.login-box input, .signup-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.7);
+  box-sizing: border-box;
+  font-size: 15px;
+  color: #215e6e;
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+.login-box input:focus, .signup-box input:focus {
+  box-shadow: 0 0 0 2px #4e9eab44;
+}
+
+/* Button styling */
+.login-box button, .signup-box button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #4e9eab 60%, #215e6e 100%);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px;
+  box-shadow: 0 2px 8px rgba(78, 158, 171, 0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.login-box button:hover, .signup-box button:hover {
+  background: linear-gradient(90deg, #215e6e 0%, #4e9eab 100%);
+  box-shadow: 0 4px 16px rgba(78, 158, 171, 0.18);
+}
+
+/* Link styling */
+.signup-link, .signin-link {
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #215e6e;
+}
+.signup-link a, .signin-link a {
+  color: #4e9eab;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+.signup-link a:hover, .signin-link a:hover {
+  color: #215e6e;
+  text-decoration: underline;
+}
+
+
+/* login box styling */
+.login-box {
+  height: 400px;
+  max-width: 320px;
+  min-width: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #b2e2e8; /* Background color similar to screenshot */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #4a626a;
+}
+
+/* Input fields styling */
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* button styling */
+.login-box button {
+  margin-top: 40px;
+  width: 100%;
+  padding: 12px;
+  background-color: #4a626a; /* Darker button color */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: #3d5159;
+}
+
+/* login link styling */
+.signup-link {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #3d5159;
+}
+
+.signup-link a {
+  color: #3d5159;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+} 
